@@ -40,6 +40,8 @@ app.use("/api/project/", propertyRouter);
 
 Connection();
 
-app.listen(Port, () => {
-  console.log(`Server running on port ${Port}`);
-});
+// app.listen(Port, () => {
+//   console.log(`Server running on port ${Port}`);
+// });
+
+export default app;
