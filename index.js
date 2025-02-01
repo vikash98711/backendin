@@ -44,4 +44,4 @@ Connection();
 //   console.log(`Server running on port ${Port}`);
 // });
 
-export default app;
+module.exports = app;
